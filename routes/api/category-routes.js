@@ -37,7 +37,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', (req, res) => {
   // create a new category
   Category.create(req.body)
-  res.status(200).json('Created new Category ' + req.body.category_name)
+  res.status(200).json('Created new category ' + req.body.category_name)
 });
 
 router.put('/:id', (req, res) => {
@@ -47,7 +47,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id,
     },
   })
-  res.status(200).json('updated'+ req.params.id);
+  res.status(200).json('updated '+ req.params.id);
 });
 
 router.delete('/:id', async (req, res) => {
