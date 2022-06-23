@@ -36,10 +36,17 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', (req, res) => {
   // create a new category
+  Category.create()
 });
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
+  Category.update(req.body, {
+    where: {
+      id: req.params.id,
+    },
+  })
+  res.status(200).json('updated'+ req.params.id);
 });
 
 router.delete('/:id', async (req, res) => {
