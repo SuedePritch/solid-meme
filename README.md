@@ -3,7 +3,7 @@
 ### Description
 This app is a ecommerce backend utilizing sequalize modeling and CRUD operations 
 
-[Video Walkthrough](https://drive.google.com/file/d/1xfjL2B_jAmcoPIzYzZcEe7njtnDPPRCd/view)
+[Video Walkthrough](https://drive.google.com/file/d/1BO4hN95Cw1rs-JjRngfBfrIABs3h0EQ-/view)
 ### Installation
 install dependancies
 
